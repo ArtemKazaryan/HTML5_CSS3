@@ -1,0 +1,121 @@
+body {
+    font-family: "Public Sans", "Verdana", "Open-Sans", sans-serif;
+    color: #1B1D1F;
+    background-color: #ffffff;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vector {
+    position: relative;
+    bottom: 18px;
+    left: 90px;
+}
+
+.categories {
+    padding: 100px 0;
+}
+
+.categories-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 16px;
+    color: #06241b;
+}
+
+.categories-title span {
+    color: #20b486;
+}
+
+.categories-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 48px;
+    color: #60737a;
+    /* color: #ffffff; */
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #1B1D1F;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.categories-item {
+    min-width: 312px;
+    border: 1px solid transparent;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 12px rgba(75 75 75 / 0.08);
+    border-radius: 8px;
+    margin-bottom: 24px;    
+}
+
+.categories-item:hover {
+    border-color:#20B486;
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.categories-item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+.categories-item__link {
+    background: transparent;
+    padding: 10px;
+    border-radius: 8px;
+   
+}
+
+.categories-item:hover .categories-item__link {
+    background-color: #20B486;
+}
+
+.categories-item:hover .categories-item__link path {
+    stroke: #ffffff;
+}
+
+.categories-item:hover svg path {
+    stroke: black;
+}
+
+
+
+
+/* svg:focus path {
+    fill: red;
+    stroke: yellow;
+} для кнопки */
+
+/* #1B1D1F */
